@@ -3,7 +3,7 @@ Página HTML 5 + CSS
 Ejercicio para LMSGI-O2
 ___
 ## *HTML*
-- Etiquetas semánticas de HTML 5 (<header>, <footer>, <article>, <section>, <aside>....).
+- Etiquetas semánticas de HTML 5 (\<header>, \<footer>, \<article>, \<section>, \<aside>....).
 - Regiones desplegables con \<details> y \<summary>.
 - Navegación interna con <nav> i àncores
 - Listas y Tablas
