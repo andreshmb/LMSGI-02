@@ -17,3 +17,7 @@ ___
 - Pseudo-classes de los enlaces.
 
 ___
+ > Los archivos se subirán a Github y se creará un acceso a los mismos con cualquier servicio como:
+ >> !^[https://raw.githack.com] raw.githack.com o ![https://pages.github.com/] pages.github.com .
+ 
+ 
