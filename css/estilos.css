@@ -1,0 +1,50 @@
+/*Ajustes generales para toda la página*/
+
+*{
+	margin:0px;
+	padding:0px;	
+}
+
+/* hoja de estilos ejercicio 02 de LMSGI creacion de página HTML 5 */
+/* Cabecera de página*/
+
+.portada{
+	height:180px;
+	border-color:1px solid black;	
+}
+
+.cabecera{
+	background-image:url(../img/cabecera/california-1.jpg);
+	background-repeat:no repeat;
+	background-size:cover;
+	margin:auto;
+	height:180px;
+	opacity:0.6;
+}
+
+.logo{
+	position:relative;
+	width:180px;
+	height:67px;
+	top:20px;
+	left:20px;
+	
+}
+.logo-car{
+	position:relative;
+	width:150px;
+	height:50px;
+	border-radius:5px;
+	padding:10px 0px 0px 15px; 
+
+}
+	
+	
+body{
+	background-image: url(../img/cabecera/ruta-66.jpg);
+	background-repeat:no repeat;
+	background-size:cover;
+	width:1920px;
+	
+	padding-bottom:20em;	
+}
