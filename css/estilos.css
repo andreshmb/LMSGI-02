@@ -13,7 +13,7 @@
 .portada{
 	height:180px;
 	border-color:1px solid black;
-	width:1920px;	
+	
 }
 
 .cabecera{
@@ -26,7 +26,9 @@
 }
 
 .rotulo{
-	color:lightblue;
+	color:blue;
+	text-align:center;
+	
 }
 
 .logo{
@@ -46,11 +48,20 @@
 
 }
 	
+/*Cuerpo del documento*/
 	
 .index{
-	background-image: url(../img/cabecera/ruta-66.jpg);
-	background-repeat:no-repeat;
+	background-image: url(../img/cabecera/ruta-66-2.jpg);
 	background-size:cover;
-	width:1920px;
-	padding-bottom:20em;	
+	background-repeat:no-repeat;
+	padding-bottom:20em;
+	
+}
+
+/*Barra de navegacion*/
+
+.menu ul{
+	display:inline;
+	text-decoration:none;
+
 }
