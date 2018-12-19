@@ -2,7 +2,9 @@
 
 *{
 	margin:0px;
-	padding:0px;	
+	padding:0px;
+	font-family: sans-serif, cursive, monospace;
+	font-size: medium;	
 }
 
 /* hoja de estilos ejercicio 02 de LMSGI creacion de página HTML 5 */
@@ -10,16 +12,21 @@
 
 .portada{
 	height:180px;
-	border-color:1px solid black;	
+	border-color:1px solid black;
+	width:1920px;	
 }
 
 .cabecera{
 	background-image:url(../img/cabecera/california-1.jpg);
-	background-repeat:no repeat;
+	background-repeat:no-repeat;
 	background-size:cover;
 	margin:auto;
 	height:180px;
-	opacity:0.6;
+	opacity:0.8;
+}
+
+.rotulo{
+	color:lightblue;
 }
 
 .logo{
@@ -34,17 +41,16 @@
 	position:relative;
 	width:150px;
 	height:50px;
-	border-radius:5px;
+	border-radius:25px;
 	padding:10px 0px 0px 15px; 
 
 }
 	
 	
-body{
+.index{
 	background-image: url(../img/cabecera/ruta-66.jpg);
-	background-repeat:no repeat;
+	background-repeat:no-repeat;
 	background-size:cover;
 	width:1920px;
-	
 	padding-bottom:20em;	
 }
