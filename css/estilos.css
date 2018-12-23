@@ -39,7 +39,7 @@
 
 .logo{
 	position:absolute;
-	width:700px;
+	width:160px;
 	height:52px;
 	top:90px;
 	left:70px;
@@ -157,6 +157,22 @@
 }
 /*cabecera articulo Q7*/
 #q7{
+    text-align: center;
+    font-size:30px;
+    color:#3B3833;
+    padding: 45px 0px 20px 0px;
+}
+/*Articulo Jeep Commander*/
+/*imagen*/
+.commander{
+	width:350px;
+	height:300px;
+	float:right;
+	margin-right:25px;
+    padding: 40px 10px 10px 20px;
+}
+/*cabecera articulo Q7*/
+#jeep{
     text-align: center;
     font-size:30px;
     color:#3B3833;
