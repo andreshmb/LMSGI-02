@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="es-ES">
+﻿<!DOCTYPE html>
+<html lang="es">
 <head>
 	<title>SUPER CARS</title>
-	<meta charset="utf-8"/>
+	<meta charset="UTF-8">
 	<meta name="description" content="Ejercicio de creacion de pagina en html 5"/>
-	<meta name="keywords" content="html 5, ejercicio, lmsgi, lmsgi02, aulaib, basic html 5"/>
+	<meta name="keywords" content="html 5, ejercicio, lmsgi, lmsgi02, aulaib, basic html 5, basic css3"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<link rel="stylesheet"  href="css/estilos.css" type="text/css"/>
 </head>
@@ -23,45 +23,83 @@
 				</div>
 		</section>
 	</header>
-	<nav>
+	<nav class="navegacion">
 		<ul class="menu">
-			<li><a href="#">Todoterrenos</a></li>
-				<ul>
-					<li><a href="#">Audi-Q7</a></a></li>	
-					<li><a href="#">Jeep-Commander</a></li>
-					<li><a href="#">Land-Rover-Discovery3</a></li>
-					<li><a href="#">Porsche-Cayenne</a></li>
+			<li><a href="#todoterreno">Todoterrenos</a>
+				<ul class="submenu">
+					<li><a href="#">Q7</a></a></li>
+					<li><a href="#">Commander</a></li>
+					<li><a href="#">Discovery3</a></li>
+					<li><a href="#">Cayenne</a></li>
 				</ul>
-			<li><a href="#">Furgonetas</a></li>
-				<ul>
-					<li><a href="#">Mercedes-benz-Sprinter</a></li>
-					<li><a href="#">Nissan-Primastar</a></li>
-					<li><a href="#">Peugeot-Expert</a></li>
-					<li><a href="#">Volkswagen-Caravelle</a></li>
+			</li>
+			<li><a href="#">Furgonetas</a>
+				<ul class="submenu">
+					<li><a href="#">Sprinter</a></li>
+					<li><a href="#">Primastar</a></li>
+					<li><a href="#">Expert</a></li>
+					<li><a href="#">Caravelle</a></li>
 				</ul>
-			<li><a href="#">Monovolumen</a></li>
-				<ul>
-					<li><a href="#">Chrysler-Grand-Voyager</a></li>
-					<li><a href="#">Mercedes-benz-Viano</a></li>
-					<li><a href="#">Renault-Space</a></li>
-					<li><a href="#">Volkswagen-Multivan</a></li>
+			</li>
+			<li><a href="#">Monovolumen</a>
+				<ul class="submenu">
+					<li><a href="#">Voyager</a></li>
+					<li><a href="#">Viano</a></li>
+					<li><a href="#">Space</a></li>
+					<li><a href="#">Multivan</a></li>
 				</ul>
-			<li><a href="#">Lujo</a></li>
-				<ul>
-					<li><a href="#">Alfa-Romeo-Brera</a></li>
-					<li><a href="#">Ferrari-612-Scaglietti</a></li>
-					<li><a href="#">Infiniti-Coupe-G37</a></li>
-					<li><a href="#">Maserati-Quattroporte</a></li>
+			</li>
+			<li><a href="#">Lujo</a>
+				<ul class="submenu">
+					<li><a href="#">Brera</a></li>
+					<li><a href="#">Scaglietti</a></li>
+					<li><a href="#">G37</a></li>
+					<li><a href="#">Quattroporte</a></li>
 				</ul>
-			<li><a href="#">Deportivos</a></li>
-				<ul>
-					<li><a href="#">Audi-R8</a></li>
-					<li><a href="#">Corvette-Z06</a></li>
-					<li><a href="#">Porsche-Cayman</a></li>
-					<li><a href="#">Subaru-Impreza</a></li>
+			</li>
+			<li><a href="#">Deportivos</a>
+				<ul class="submenu">
+					<li><a href="#">R8</a></li>
+					<li><a href="#">Z06</a></li>
+					<li><a href="#">Cayman</a></li>
+					<li><a href="#">Impreza</a></li>
 				</ul>
+			</li>
 		</ul>
-	</nav>
+</nav>
+	<section class="contenido">
+		<article>
+			<header>
+			<h2 id="todoterreno">Todoterrenos</h2>
+			</header>
+			<p><img class="todocamino" src="img/todoterrenos/ranger.png" alt="Range Rover"/></p>
+			<p>Los todoterrenos son coches robustos con traccion en las 4 ruedas y su mejor baza es que pueden moverse con facilidad por terrenos dificiles.<br>
+			Este tipo de vehiculos pueden soportar mucha carga y admiten un elevado numero de ocupantes.<br>
+			Algunos de estos coches son incluso familiares (cada vez se ven mas este tipo de vehiculos en las grandes ciudades).<br>
+			En general, son perfectos para hacer excusiones e ir en busca de aventuras.<br>
+			En este segmento también encontramos los 4x4 y las tipicas rancheras diseñadas bajo el concepto pick up (la parte de atras es descapotable, hecho que facilita la carga y descarga de materiales).
+			</p>
+		</article>
+
+		<article>
+            <header>
+                <h2 id="audi">Audi Q7</h2>
+            </header>
+            <p><img class="Q7"
+            src="img/todoterrenos/Q7.jpg" alt="Audi Q7"/>
+            </p>
+        </article>
+		<article></article>
+		<article></article>
+		<article></article>
+		<article></article>
+		<article></article>
+		<article></article>
+		<article></article>
+
+	</section>
+
+
 
 </body>
 </html>

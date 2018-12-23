@@ -3,8 +3,11 @@
 *{
 	margin:0px;
 	padding:0px;
-	font-family: sans-serif, cursive, monospace;
-	font-size: medium;	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: sans-serif, monospace ;
+
 }
 
 /* hoja de estilos ejercicio 02 de LMSGI creacion de página HTML 5 */
@@ -13,7 +16,7 @@
 .portada{
 	height:180px;
 	border-color:1px solid black;
-	
+
 }
 
 .cabecera{
@@ -26,42 +29,142 @@
 }
 
 .rotulo{
-	color:blue;
+	position:absolute;
+	color:#D6D1A1;
 	text-align:center;
-	
+	font-size:25px;
+	top:50px;
+	width:380px;
+	height:44px;
 }
 
 .logo{
-	position:relative;
-	width:180px;
-	height:67px;
-	top:20px;
-	left:20px;
-	
+	position:absolute;
+	width:700px;
+	height:52px;
+	top:45px;
+	left:320px;
+
 }
 .logo-car{
 	position:relative;
 	width:150px;
 	height:50px;
-	border-radius:25px;
-	padding:10px 0px 0px 15px; 
+	border-top-color: white ;
+	border-radius:10px 10px 10px 10px;
+
 
 }
-	
+
 /*Cuerpo del documento*/
-	
+
 .index{
 	background-image: url(../img/cabecera/ruta-66-2.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
+	margin:auto;
 	padding-bottom:20em;
-	
+
 }
 
 /*Barra de navegacion*/
 
-.menu ul{
-	display:inline;
-	text-decoration:none;
+.navegacion{
+	width: auto;
+	height: 60px;
+	margin: 30px auto;
+}
+.navegacion ul{
+	list-style: none;
+	text-decoration: none;
+}
 
+/*Menú principal*/
+.menu >li{
+   display: inline-block;
+
+}
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	font-family: monospace;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: bolder;
+    color: #3B3833;
+}
+.menu > li > a:hover{
+	color: #656A50;
+	transition: all 0.3s;
+}
+/*submenu*/
+.submenu{
+	position: absolute;
+	width: 160px;
+	margin-left: 20px;
+	visibility: hidden;
+    background: #8EACB6;
+    border-radius: 10px;
+}
+.submenu li a{
+	display: block;
+	padding: 10px 10px;
+	color: #3B3833;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+	text-decoration: none;
+}
+.menu li:hover .submenu{
+  visibility: visible;
+}
+/*seccion principal la cual contiene todo el contenido*/
+.contenido{
+	background-color: #C5CCB6;
+	width:75%;
+	float: right;
+	margin-right: 100px;
+    border-radius: 10px;
+	padding: 20px;
+
+
+
+}
+
+/*Articulo Todoterrenos*/
+
+.todocamino{
+	width:250px;
+	height:200px;
+	float:right;
+	margin-right:15px;
+	margin-bottom:15px;
+    padding: 0px 0px 0px 20px;
+
+}
+#todoterreno{
+	text-align:center;
+	font-size:30px;
+    color:#3B3833;
+    padding: 15px 20px;
+
+}
+
+/*Diseño responsivo*/
+
+@media only screen and (max-width:800px) {
+  /* Para Tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* Para Smartphones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
 }
