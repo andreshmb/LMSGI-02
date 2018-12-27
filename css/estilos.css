@@ -62,8 +62,6 @@
 	background-size:cover;
 	background-repeat:no-repeat;
 	margin:auto;
-	padding-bottom:20em;
-
 }
 
 /*Barra de navegacion*/
@@ -80,6 +78,10 @@
 }
 
 /*Menú principal*/
+.menu{
+    background: #8EACB6;
+    border-radius: 10px;
+}
 .menu >li{
    display: inline-block;
 
@@ -91,7 +93,7 @@
 	text-decoration: none;
 	font-size: 30px;
 	font-weight: bolder;
-    color: #FFFFFF;
+    color: #3B3833;
 }
 .menu > li > a:hover{
 	color: #C5D3A7;
@@ -115,18 +117,43 @@
     font-weight: bold;
 	text-decoration: none;
 }
+.submenu li a:hover{
+    color: #C5D3A7;
+    transition: all 0.3s;
+}
 .menu li:hover .submenu{
   visibility: visible;
 }
 /*seccion principal la cual contiene todo el contenido*/
+.principal{
+    margin: opx;
+    padding: opx;
+}
+/*seccion central articulos pagina*/
 .contenido{
 	background-color: #C5CCB6;
 	width:75%;
-	float: right;
-	margin-right: 100px;
+    margin-right: 20px;
     margin-top: 25px;
     border-radius: 10px;
 	padding: 20px 0px 20px 20px;
+}
+/*seccion lateral notas y enlaces sobre el contenido principal articulos*/
+#lateral{
+    background-color: #FFF;
+    width: 21%;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+    margin-top:20px;
+}
+/*Pie de página informacion personal, etc.*/
+.pie{
+    background-color: #102D40;
+    height: 150px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 10px 20px;
 }
 
 /*Articulo Todoterrenos*/
@@ -176,6 +203,22 @@
     color:#3B3833;
     padding: 45px 0px 20px 0px;
 }
+/*Articulo Furgonetas*/
+/*imagen*/
+.furgoneta{
+	width:200px;
+	height:150px;
+	float:right;
+	margin-right:25px;
+    padding: 10px 10px 10px 20px;
+}
+/*cabecera articulo Furgonetas*/
+#furgo{
+	text-align:center;
+	font-size:30px;
+    color:#3B3833;
+    padding: 45px 0px 20px 0px;
+}
 /*Articulo Volkswagen Caravelle*/
 .caravelle{
 	width:350px;
@@ -214,13 +257,7 @@ hr{
     margin-top: 20px;
     margin-bottom: 10px;
 }
-/*Pie de pagina*/
-.pie {
-    position: relative;
-    width: 100%;
-    height: 205px;
-}
-}
+
 /*Diseño responsivo*/
 
 @media only screen and (max-width:800px) {
