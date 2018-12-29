@@ -163,11 +163,12 @@
 #lateral{
     background-color: #F5DEBE;
     width: 19%;
-    height: 21800px;
+    height: auto;
     float: left;
     margin-left: 5px;
     padding-left: 20px;
     padding-right: 10px;
+    border-radius: 10px;
 }
 h4{
     text-align: center;
