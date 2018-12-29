@@ -32,27 +32,47 @@
 	color:#D6D1A1;
 	text-align:center;
 	font-size:25px;
-	top:135px;
+	top:65px;
 	width:250px;
 	height:44px;
 }
 
 .logo{
 	position:absolute;
-	width:160px;
+	width:1000px;
 	height:52px;
-	top:90px;
+	top:5px;
 	left:70px;
 
 }
+/*Animacion de la imagen del logo a lo largo del div logo*/
 .logo-car{
 	position:relative;
 	width:150px;
 	height:50px;
 	border-top-color: white ;
 	border-radius:10px 10px 10px 10px;
+    animation-name: fastcar;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    -webkit-animation-name: fastcar;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease;
+}
+@-webkit-keyframes fastcar{
+    0% {left: 0px;}
+    100% {left:1000px}
+}
 
-
+@keyframes fastcar{
+    0% {left: 0px;}
+    100% {left:1000px}
 }
 
 /*Cuerpo del documento*/
@@ -67,6 +87,7 @@
 /*Barra de navegacion*/
 
 .navegacion{
+    top: 54px;
 	width: auto;
 	height: 60px;
     margin-left: 260px;
@@ -134,18 +155,22 @@
 	background-color: #C5CCB6;
 	width:75%;
     margin-right: 20px;
-    margin-top: 25px;
+    margin-top: 20px;
     border-radius: 10px;
 	padding: 20px 0px 20px 20px;
 }
 /*seccion lateral notas y enlaces sobre el contenido principal articulos*/
 #lateral{
-    background-color: #FFF;
-    width: 21%;
-    height: auto;
+    background-color: #F5DEBE;
+    width: 19%;
+    height: 21800px;
     float: left;
-    margin-left: 20px;
-    margin-top:20px;
+    margin-left: 5px;
+}
+h4{
+    text-align: center;
+    padding: 20px 10px;
+    
 }
 /*Pie de página informacion personal, etc.*/
 .pie{
@@ -170,38 +195,40 @@
 	text-align:center;
 	font-size:30px;
     color:#3B3833;
-    padding: 45px 0px 20px 0px;
+    padding: 9px 0px 20px 0px;
 }
 
 /*Articulo Q7*/
 /*imagen*/
 .Q7{
-	width:350px;
-	height:300px;
+	width:400px;
+	height:350px;
 	float:right;
+    margin-top: 35px;
 	margin-right:25px;
-    padding: 40px 10px 10px 20px;
+    padding: 55px 10px 10px 20px;
 }
 #q7{
     text-align: center;
     font-size:30px;
     color:#3B3833;
-    padding: 55px 0px 20px 0px;
+    padding: 9px 0px 20px 0px;
 }
 /*Articulo Jeep Commander*/
 /*imagen*/
 .commander{
-	width:350px;
-	height:300px;
+	width:400px;
+	height:350px;
 	float:right;
 	margin-right:25px;
+    margin-top: 35px;
     padding: 55px 10px 10px 20px;
 }
 #jeep{
     text-align: center;
     font-size:30px;
     color:#3B3833;
-    padding: 45px 0px 20px 0px;
+    padding: 9px 0px 20px 0px;
 }
 /*Articulo Furgonetas*/
 /*imagen*/
@@ -213,26 +240,211 @@
     padding: 10px 10px 10px 20px;
 }
 /*cabecera articulo Furgonetas*/
-#furgo{
+#furgoneta{
 	text-align:center;
 	font-size:30px;
     color:#3B3833;
-    padding: 45px 0px 20px 0px;
+    padding: 9px 0px 20px 0px;
 }
 /*Articulo Volkswagen Caravelle*/
 .caravelle{
-	width:350px;
-	height:300px;
+	width:400px;
+	height:350px;
 	float:right;
 	margin-right:25px;
+    margin-top: 35px;
     padding: 55px 10px 10px 20px;
 }
 #volkswagen{
     text-align: center;
     font-size:30px;
     color:#3B3833;
-    padding: 45px 0px 20px 0px;
+    padding: 9px 0px 20px 0px;
 }
+/*Articulo Nissan Primastar*/
+.primastar{
+	width:400px;
+	height:350px;
+	float:right;
+	margin-right:25px;
+    margin-top: 35px;
+    padding: 55px 10px 10px 20px;
+}
+#Nissan{
+    text-align: center;
+    font-size:30px;
+    color:#3B3833;
+    padding: 9px 0px 20px 0px;
+}
+/*Articulo Monovolumenes*/
+/*imagen*/
+.monovolumenes{
+	width:200px;
+	height:150px;
+	float:right;
+	margin-right:25px;
+    padding: 10px 10px 10px 20px;
+}
+/*cabecera articulo Monovolumenes*/
+#monovolumen{
+	text-align:center;
+	font-size:30px;
+    color:#3B3833;
+    padding: 9px 0px 20px 0px;
+}
+/*Articulo Chrysler Voyager*/
+.voyager{
+	width:400px;
+	height:350px;
+	float:right;
+	margin-right:25px;
+    margin-top: 35px;
+    padding: 55px 10px 10px 20px;
+}
+#chrysler{
+    text-align: center;
+    font-size:30px;
+    color:#3B3833;
+    padding: 9px 0px 20px 0px;
+}
+/*Articulo Renault Espace*/
+.space{
+	width:400px;
+	height:350px;
+	float:right;
+	margin-right:25px;
+    margin-top: 35px;
+    padding: 55px 10px 10px 20px;
+}
+#renault{
+    text-align: center;
+    font-size:30px;
+    color:#3B3833;
+    padding: 9px 0px 20px 0px;
+}
+/*Articulo Coches de Lujo*/
+/*imagen*/
+.lujoso{
+	width:200px;
+	height:150px;
+	float:right;
+	margin-right:25px;
+    padding: 10px 10px 10px 20px;
+}
+/*cabecera articulo coches de lujo*/
+#lujo{
+	text-align:center;
+	font-size:30px;
+    color:#3B3833;
+    padding: 9px 0px 20px 0px;
+}
+/*Articulo Ferrari 612 Scaglietti*/
+.scaglietti{
+	width:400px;
+	height:350px;
+	float:right;
+	margin-right:25px;
+    margin-top: 35px;
+    padding: 55px 10px 10px 20px;
+}
+#ferrari{
+    text-align: center;
+    font-size:30px;
+    color:#3B3833;
+    padding: 9px 0px 20px 0px;
+}
+/*Articulo Infinity G37*/
+.g37{
+	width:400px;
+	height:350px;
+	float:right;
+	margin-right:25px;
+    margin-top: 35px;
+    padding: 55px 10px 10px 20px;
+}
+#infinity{
+    text-align: center;
+    font-size:30px;
+    color:#3B3833;
+    padding: 9px 0px 20px 0px;
+}
+/*Articulo Maserati Quattroporte*/
+.quattroporte{
+	width:400px;
+	height:350px;
+	float:right;
+	margin-right:25px;
+    margin-top: 35px;
+    padding: 55px 10px 10px 20px;
+}
+#maserati{
+    text-align: center;
+    font-size:30px;
+    color:#3B3833;
+    padding: 9px 0px 20px 0px;
+}
+/*Articulo Deportivos*/
+/*imagen*/
+.bolido{
+	width:200px;
+	height:150px;
+	float:right;
+	margin-right:25px;
+    padding: 10px 10px 10px 20px;
+}
+/*cabecera articulo coches de lujo*/
+#deportivo{
+	text-align:center;
+	font-size:30px;
+    color:#3B3833;
+    padding: 9px 0px 20px 0px;
+}
+/*Articulo Audi R8*/
+.r8{
+	width:400px;
+	height:350px;
+	float:right;
+	margin-right:25px;
+    margin-top: 35px;
+    padding: 55px 10px 10px 20px;
+}
+#audi{
+    text-align: center;
+    font-size:30px;
+    color:#3B3833;
+    padding: 9px 0px 20px 0px;
+}
+/*Articulo Corvette Z06*/
+.z06{
+	width:400px;
+	height:350px;
+	float:right;
+	margin-right:25px;
+    margin-top: 35px;
+    padding: 55px 10px 10px 20px;
+}
+#corvette{
+    text-align: center;
+    font-size:30px;
+    color:#3B3833;
+    padding: 9px 0px 20px 0px;
+}
+/*Articulo Porsche Caiman*/
+.caiman{
+	width:400px;
+	height:350px;
+	float:right;
+	margin-right:25px;
+    margin-top: 35px;
+    padding: 55px 10px 10px 20px;
+}
+#porsche{
+    text-align: center;
+    font-size:30px;
+    color:#3B3833;
+    padding: 9px 0px 20px 0px;
+}
+
 /*Tablas stilos*/
 table{
     border-collapse: collapse;
@@ -248,6 +460,7 @@ td, th {
 p{
     margin-left: 15px;
     margin-right: 20px;
+    margin-top: 55px;
 }
 br{
     padding: 10px;
