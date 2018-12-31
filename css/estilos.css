@@ -37,7 +37,7 @@
 	height:44px;
 }
 
-.logo{
+#logo{
 	position:absolute;
 	width:1000px;
 	height:52px;
@@ -170,10 +170,17 @@
     padding-right: 10px;
     border-radius: 10px;
 }
+#lateral ul li::before{
+  content: "@";
+  color:#000;
+}
 h4{
     text-align: center;
     padding: 20px 10px;
-    
+    letter-spacing: 2px;
+}
+h5{
+    text-shadow: 1px 0px;
 }
 #separador{
     margin: 0px 10px 10px;
@@ -183,6 +190,17 @@ h4{
 }
 #comment{
     margin-top: -40px;
+    background: #D0A674;
+    border-left: 3px solid #47484B;
+}
+#lateral ul li{
+    list-style: none;
+}
+#lateral ul li a{
+    text-decoration: none;
+}
+#lateral ul li a:hover{
+    color: #000;
 }
 /*Pie de página informacion personal, etc.*/
 .pie{
