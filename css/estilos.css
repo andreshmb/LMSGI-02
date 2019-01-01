@@ -188,7 +188,7 @@ h5{
 #define{
     margin: 0px;
 }
-#comment{
+blockquote{
     margin-top: -40px;
     background: #D0A674;
     border-left: 3px solid #47484B;
