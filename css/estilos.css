@@ -204,11 +204,44 @@ h5{
 }
 /*Pie de página informacion personal, etc.*/
 .pie{
-    background-color: #102D40;
+    background-color: #47484B;
     height: 150px;
     border-radius: 8px;
     padding: 10px 20px;
     margin: 10px 20px;
+    color: #FFF;
+}
+.goto >p{
+   margin-top: 0px;
+    text-align: center;
+}
+.goto >p >a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: monospace;
+}
+.how h6{
+    width: 200px;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+}
+.how >p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.contac h6{
+    float: left;
+    width: 200px;
+    margin-top: 0px;
+    margin-left: 210px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
 }
 
 /*Articulo Todoterrenos*/
