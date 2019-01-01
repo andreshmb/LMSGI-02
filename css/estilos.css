@@ -205,7 +205,7 @@ h5{
 /*Pie de página informacion personal, etc.*/
 .pie{
     background-color: #47484B;
-    height: 150px;
+    height: 200px;
     border-radius: 8px;
     padding: 10px 20px;
     margin: 10px 20px;
@@ -222,7 +222,34 @@ h5{
     font-weight: bolder;
     font-family: monospace;
 }
-.how h6{
+.how{
+    float: left;
+    width: 33%;
+}
+
+.contac{
+    float: left;
+    width: 33%;
+}
+.link{
+    float: left;
+    width: 33%;
+}
+h6{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    margin-top: 20px;
+}
+.contpie p{
+    margin-top: 10px;
+    padding: 10px;
+}
+.contpie p a{
+    text-decoration: none;
+    color: #fff;
+}
+/*.how h6{
     width: 200px;
     margin-top: 0px;
     margin-left: 10px;
@@ -242,7 +269,7 @@ h5{
     font-size: 20px;
     font-weight: bold;
     font-family: monospace;
-}
+}*/
 
 /*Articulo Todoterrenos*/
 /*imagen*/
