@@ -3,8 +3,6 @@
 *{
 	margin:auto;
 	padding:0px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	font-family: sans-serif, monospace ;
 
@@ -15,7 +13,7 @@
 
 .portada{
 	height:180px;
-	border-color:1px solid black;
+	border-color:crimson;
 
 }
 
@@ -58,16 +56,6 @@
     animation-direction: alternate;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
-    -webkit-animation-name: fastcar;
-    -webkit-animation-duration: 5s;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-direction: alternate;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: ease;
-}
-@-webkit-keyframes fastcar{
-    0% {left: 0px;}
-    100% {left:1000px}
 }
 
 @keyframes fastcar{
@@ -147,8 +135,8 @@
 }
 /*seccion principal la cual contiene todo el contenido*/
 .principal{
-    margin: opx;
-    padding: opx;
+    margin: 0px;
+    padding: 0px;
 }
 /*seccion central articulos pagina*/
 .contenido{
