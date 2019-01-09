@@ -260,7 +260,7 @@ h6{
 	width:200px;
 	height:150px;
 	float:right;
-	margin-right:25px;
+	margin-right:10px;
     padding: 10px 10px 10px 20px;
 }
 /*cabecera articulo todoterrenos*/
@@ -278,7 +278,7 @@ h6{
 	height:350px;
 	float:right;
     margin-top: 35px;
-	margin-right:25px;
+	margin-right:10px;
     padding: 55px 10px 10px 20px;
 }
 #q7{
@@ -293,7 +293,7 @@ h6{
 	width:400px;
 	height:350px;
 	float:right;
-	margin-right:25px;
+	margin-right:10px;
     margin-top: 35px;
     padding: 55px 10px 10px 20px;
 }
@@ -309,7 +309,7 @@ h6{
 	width:200px;
 	height:150px;
 	float:right;
-	margin-right:25px;
+	margin-right:10px;
     padding: 10px 10px 10px 20px;
 }
 /*cabecera articulo Furgonetas*/
@@ -324,7 +324,7 @@ h6{
 	width:400px;
 	height:350px;
 	float:right;
-	margin-right:25px;
+	margin-right:10px;
     margin-top: 35px;
     padding: 55px 10px 10px 20px;
 }
@@ -339,7 +339,7 @@ h6{
 	width:400px;
 	height:350px;
 	float:right;
-	margin-right:25px;
+	margin-right:10px;
     margin-top: 35px;
     padding: 55px 10px 10px 20px;
 }
@@ -355,7 +355,7 @@ h6{
 	width:200px;
 	height:150px;
 	float:right;
-	margin-right:25px;
+	margin-right:10px;
     padding: 10px 10px 10px 20px;
 }
 /*cabecera articulo Monovolumenes*/
@@ -370,7 +370,7 @@ h6{
 	width:400px;
 	height:350px;
 	float:right;
-	margin-right:25px;
+	margin-right:10px;
     margin-top: 35px;
     padding: 55px 10px 10px 20px;
 }
@@ -385,7 +385,7 @@ h6{
 	width:400px;
 	height:350px;
 	float:right;
-	margin-right:25px;
+	margin-right:10px;
     margin-top: 35px;
     padding: 55px 10px 10px 20px;
 }
@@ -401,7 +401,7 @@ h6{
 	width:200px;
 	height:150px;
 	float:right;
-	margin-right:25px;
+	margin-right:10px;
     padding: 10px 10px 10px 20px;
 }
 /*cabecera articulo coches de lujo*/
@@ -416,7 +416,7 @@ h6{
 	width:400px;
 	height:350px;
 	float:right;
-	margin-right:25px;
+	margin-right:10px;
     margin-top: 35px;
     padding: 55px 10px 10px 20px;
 }
@@ -431,7 +431,7 @@ h6{
 	width:400px;
 	height:350px;
 	float:right;
-	margin-right:25px;
+	margin-right:10px;
     margin-top: 35px;
     padding: 55px 10px 10px 20px;
 }
@@ -446,7 +446,7 @@ h6{
 	width:400px;
 	height:350px;
 	float:right;
-	margin-right:25px;
+	margin-right:10px;
     margin-top: 35px;
     padding: 55px 10px 10px 20px;
 }
@@ -462,7 +462,7 @@ h6{
 	width:200px;
 	height:150px;
 	float:right;
-	margin-right:25px;
+	margin-right:10px;
     padding: 10px 10px 10px 20px;
 }
 /*cabecera articulo coches de lujo*/
@@ -477,7 +477,7 @@ h6{
 	width:400px;
 	height:350px;
 	float:right;
-	margin-right:25px;
+	margin-right:10px;
     margin-top: 35px;
     padding: 55px 10px 10px 20px;
 }
@@ -492,7 +492,7 @@ h6{
 	width:400px;
 	height:350px;
 	float:right;
-	margin-right:25px;
+	margin-right:10px;
     margin-top: 35px;
     padding: 55px 10px 10px 20px;
 }
@@ -507,7 +507,7 @@ h6{
 	width:400px;
 	height:350px;
 	float:right;
-	margin-right:25px;
+	margin-right:10px;
     margin-top: 35px;
     padding: 55px 10px 10px 20px;
 }
@@ -535,7 +535,7 @@ td, th {
 
 /*Estilos de Parrafos en Main*/
 p{
-    margin-left: 15px;
+    margin-left: 6%;
     margin-right: 20px;
     margin-top: 55px;
 }
