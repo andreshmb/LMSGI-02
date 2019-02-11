@@ -27,5 +27,5 @@ ___
  > ![Repositorio en Github](https://github.com/andreshmb/LMSGI-02),[Index.html].
  
  
- [Index]:https://andreshmb.github.io/LMSGI-02/
+ [Index.html]:https://andreshmb.github.io/LMSGI-02/
  
