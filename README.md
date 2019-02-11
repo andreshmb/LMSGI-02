@@ -24,6 +24,8 @@ ___
  
  >Enlaces al index y al repositorio en Github:
  
- > ![Index.html](https://andreshmb.github.io/LMSGI-02/), ![Repositorio en Github](https://github.com/andreshmb/LMSGI-02).
+ > ![Repositorio en Github](https://github.com/andreshmb/LMSGI-02),[Index].
  
+ 
+ [Index]:Index.html](https://andreshmb.github.io/LMSGI-02/
  
